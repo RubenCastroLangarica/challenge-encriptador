@@ -18,6 +18,7 @@ function encriptar(){
         parrafo.textContent = textoEncriptado;
 /*         document.getElementById("muñeco").style.display = "none"; */
         muñeco.src = "./img/encriptado.png"; 
+        let botonCopiar = document.querySelector(".btn-copiar"); 
         botonCopiar.addEventListener("click", copiar = () => {
         let contenido = document.getElementById("parrafo").textContent;
         navigator.clipboard.writeText(contenido);})
