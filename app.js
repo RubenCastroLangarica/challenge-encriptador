@@ -23,7 +23,7 @@ function encriptar(){
         let contenido = document.getElementById("parrafo").textContent;
         navigator.clipboard.writeText(contenido);})
     } else {
-        muñeco.src = "./img/muñeco.png";
+        muñeco.src = "./img/Muñeco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
         swal ("Atención", "Debes ingresar un texto", "warning");
@@ -53,7 +53,7 @@ function desencriptar(){
         let contenido = document.getElementById("parrafo").textContent;
         navigator.clipboard.writeText(contenido);})
     } else {
-        muñeco.src = "./img/muñeco.png";
+        muñeco.src = "./img/Muñeco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
         swal ("Atención", "Debes ingresar un texto", "warning"); 
